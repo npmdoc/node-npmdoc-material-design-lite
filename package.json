@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"material-design-lite",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "material-design-lite",
+    "description": "api documentation for [material-design-lite (v1.3.0)](https://github.com/google/material-design-lite#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-material-design-lite.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-material-design-lite) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-material-design-lite.svg)](https://travis-ci.org/npmdoc/node-npmdoc-material-design-lite)",
     "devDependencies": {
-        "material-design-lite": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "material-design-lite": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-material-design-lite",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-material-design-lite",
+    "keywords": [
+        "documentation",
+        "material-design-lite"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_material_design_lite.js",
+    "name": "npmdoc-material-design-lite",
+    "nameAlias": "npmdoc_material_design_lite",
+    "nameOriginal": "npmdoc-material-design-lite",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-material-design-lite"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
