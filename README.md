@@ -1,9 +1,14 @@
-# api documentation for  [material-design-lite (v1.3.0)](https://github.com/google/material-design-lite#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-material-design-lite.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-material-design-lite) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-material-design-lite.svg)](https://travis-ci.org/npmdoc/node-npmdoc-material-design-lite)
+# npmdoc-material-design-lite
+
+#### api documentation for  [material-design-lite (v1.3.0)](https://github.com/google/material-design-lite#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-material-design-lite.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-material-design-lite) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-material-design-lite.svg)](https://travis-ci.org/npmdoc/node-npmdoc-material-design-lite)
+
 #### Material Design Components in CSS, JS and HTML
 
-[![NPM](https://nodei.co/npm/material-design-lite.png?downloads=true)](https://www.npmjs.com/package/material-design-lite)
+[![NPM](https://nodei.co/npm/material-design-lite.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/material-design-lite)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-material-design-lite_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-material-design-lite/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-material-design-lite/build/screenCapture.npmPackageListing.svg)
 
@@ -99,21 +104,17 @@
     "main": "dist/material.min.js",
     "maintainers": [
         {
-            "name": "addyosmani",
-            "email": "addyosmani@gmail.com"
+            "name": "addyosmani"
         },
         {
-            "name": "surma",
-            "email": "surma@surmair.de"
+            "name": "surma"
         },
         {
-            "name": "sgomes",
-            "email": "mail@sgomes.io"
+            "name": "sgomes"
         }
     ],
     "name": "material-design-lite",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/google/material-design-lite.git"
@@ -124,16 +125,6 @@
     "version": "1.3.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module material-design-lite](#apidoc.module.material-design-lite)
-
-
-
-# <a name="apidoc.module.material-design-lite"></a>[module material-design-lite](#apidoc.module.material-design-lite)
 
 
 
